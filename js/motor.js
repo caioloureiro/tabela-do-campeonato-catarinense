@@ -74,7 +74,7 @@ for (i = 0; i < 1; i++) {
 	
 }
 
-for (i = 2; i < 3; i++) {
+for (i = 1; i < 2; i++) {
 	
 	parametros_da_url02 = parametros_da_url[i].split('=');
 	iCampeonato = Number(parametros_da_url02[1]);
@@ -492,14 +492,54 @@ $(document).ready(function (){
 				'');
 			
 				//Start - Ordena as posições de acordo com a TAG iPosicao FASE DE TURNOS
-				quartas_pos01 = tabela[1].Grupo[0].Tabela[0];
-				quartas_pos02 = tabela[1].Grupo[0].Tabela[1];
-				quartas_pos03 = tabela[1].Grupo[1].Tabela[0];
-				quartas_pos04 = tabela[1].Grupo[1].Tabela[1];
-				quartas_pos05 = tabela[1].Grupo[2].Tabela[0];
-				quartas_pos06 = tabela[1].Grupo[2].Tabela[1];
-				quartas_pos07 = tabela[1].Grupo[3].Tabela[0];
-				quartas_pos08 = tabela[1].Grupo[3].Tabela[1];
+				
+				if(tabela[1].Grupo[0].Tabela[0].iPontos >= tabela[1].Grupo[0].Tabela[1].iPontos){
+
+					quartas_pos01 = tabela[1].Grupo[0].Tabela[0];
+					quartas_pos02 = tabela[1].Grupo[0].Tabela[1];
+					
+				}else{
+					
+					quartas_pos01 = tabela[1].Grupo[0].Tabela[1];
+					quartas_pos02 = tabela[1].Grupo[0].Tabela[0];
+					
+				}
+				
+				if(tabela[1].Grupo[1].Tabela[0].iPontos >= tabela[1].Grupo[1].Tabela[1].iPontos){
+					
+					quartas_pos03 = tabela[1].Grupo[1].Tabela[0];
+					quartas_pos04 = tabela[1].Grupo[1].Tabela[1];
+					
+				}else{
+					
+					quartas_pos03 = tabela[1].Grupo[1].Tabela[1];
+					quartas_pos04 = tabela[1].Grupo[1].Tabela[0];
+					
+				}
+				
+				if(tabela[1].Grupo[2].Tabela[0].iPontos >= tabela[1].Grupo[2].Tabela[1].iPontos){
+					
+					quartas_pos05 = tabela[1].Grupo[2].Tabela[0];
+					quartas_pos06 = tabela[1].Grupo[2].Tabela[1];
+					
+				}else{
+					
+					quartas_pos05 = tabela[1].Grupo[2].Tabela[1];
+					quartas_pos06 = tabela[1].Grupo[2].Tabela[0];
+					
+				}
+				
+				if(tabela[1].Grupo[3].Tabela[0].iPontos >= tabela[1].Grupo[3].Tabela[1].iPontos){
+					
+					quartas_pos07 = tabela[1].Grupo[3].Tabela[0];
+					quartas_pos08 = tabela[1].Grupo[3].Tabela[1];
+					
+				}else{
+					
+					quartas_pos07 = tabela[1].Grupo[3].Tabela[1];
+					quartas_pos08 = tabela[1].Grupo[3].Tabela[0];
+					
+				}
 				//End - Ordena as posições de acordo com a TAG iPosicao FASE DE TURNOS
 				
 				$('.fase1').append(''+
@@ -691,8 +731,17 @@ $(document).ready(function (){
 				'');
 			
 				//Start - Ordena as posições de acordo com a TAG iPosicao FASE DE TURNOS
-				descenso_pos01 = tabela[2].Grupo[0].Tabela[0];
-				descenso_pos02 = tabela[2].Grupo[0].Tabela[1];
+				if(tabela[2].Grupo[0].Tabela[0].iPontos >= tabela[2].Grupo[0].Tabela[1].iPontos){
+
+					descenso_pos01 = tabela[2].Grupo[0].Tabela[0];
+					descenso_pos02 = tabela[2].Grupo[0].Tabela[1];
+					
+				}else{
+					
+					descenso_pos01 = tabela[2].Grupo[0].Tabela[1];
+					descenso_pos02 = tabela[2].Grupo[0].Tabela[0];
+					
+				}
 				//End - Ordena as posições de acordo com a TAG iPosicao FASE DE TURNOS
 				
 				$('.fase2').append(''+
@@ -741,65 +790,6 @@ $(document).ready(function (){
 				
 				//Start - Carrossel de Tabelas
 				console.log('6.4. tabela.json - Tabela do Descenso não iniciada.');
-				/*
-				$('.principal-tabela-carrossel').append(''+
-				'<div class="principal-tabela-classificacao fase2">'+
-				'		<div class="principal-jogos-barra">'+
-				'		<div class="principal-jogos-barra-txt">CONFRONTO ELIMINATÓRIO - DESCENSO</div>'+
-				'	</div>'+
-				'	<div class="principal-tabela-classificacao-linha">'+
-				'		<div class="principal-tabela-classificacao-linha-header-posicao">Posição</div>'+
-				'		<div class="principal-tabela-classificacao-linha-header-pontos">PTS</div>'+
-				'		<div class="principal-tabela-classificacao-linha-header-jogos">J</div>'+
-				'		<div class="principal-tabela-classificacao-linha-header-vitorias">V</div>'+
-				'		<div class="principal-tabela-classificacao-linha-header-empates">E</div>'+
-				'		<div class="principal-tabela-classificacao-linha-header-derrotas">D</div>'+
-				'		<div class="principal-tabela-classificacao-linha-header-gols-pro">GP</div>'+
-				'		<div class="principal-tabela-classificacao-linha-header-gols-contra">GC</div>'+
-				'		<div class="principal-tabela-classificacao-linha-header-saldo-de-gols">SG</div>'+
-				'		<div class="principal-tabela-classificacao-linha-header-cartoes-amarelos">CA</div>'+
-				'		<div class="principal-tabela-classificacao-linha-header-cartoes-vermelhos">CV</div>'+
-				'	</div>'+
-				'</div>'+
-				'');
-				
-				$('.fase2').append(''+
-				'<div class="principal-tabela-classificacao-linha">'+
-				'	<div class="principal-tabela-classificacao-linha-info-btn">'+
-				'		<div class="principal-tabela-classificacao-linha-info-btn-off principal-tabela-classificacao-linha-info-btn-on"></div>'+
-				'	</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-escudo jogo-a-decidir-escudo" style="margin-top:0.4vw;"></div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-nome"></div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-pontos">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-jogos">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-vitorias">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-empates">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-derrotas">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-gols-pro">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-gols-contra">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-saldo-de-gols">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-cartoes-amarelos">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-cartoes-vermelhos">0</div>'+
-				'</div>'+
-				'<div class="principal-tabela-classificacao-linha">'+
-				'	<div class="principal-tabela-classificacao-linha-info-btn">'+
-				'		<div class="principal-tabela-classificacao-linha-info-btn-off principal-tabela-classificacao-linha-info-btn-on"></div>'+
-				'	</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-escudo jogo-a-decidir-escudo" style="margin-top:0.4vw;"></div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-nome"></div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-pontos">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-jogos">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-vitorias">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-empates">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-derrotas">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-gols-pro">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-gols-contra">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-saldo-de-gols">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-cartoes-amarelos">0</div>'+
-				'	<div class="principal-tabela-classificacao-linha-info-cartoes-vermelhos">0</div>'+
-				'</div>'+
-				'');
-				*/
 				//End - Carrossel de Tabelas
 			
 			}
@@ -831,10 +821,29 @@ $(document).ready(function (){
 				'');
 			
 				//Start - Ordena as posições de acordo com a TAG iPosicao FASE DE TURNOS
-				semi_pos01 = tabela[3].Grupo[0].Tabela[0];
-				semi_pos02 = tabela[3].Grupo[0].Tabela[1];
-				semi_pos03 = tabela[3].Grupo[1].Tabela[0];
-				semi_pos04 = tabela[3].Grupo[1].Tabela[1];
+				if(tabela[3].Grupo[0].Tabela[0].iPontos >= tabela[3].Grupo[0].Tabela[1].iPontos){
+
+					semi_pos01 = tabela[3].Grupo[0].Tabela[0];
+					semi_pos02 = tabela[3].Grupo[0].Tabela[1];
+					
+				}else{
+					
+					semi_pos01 = tabela[3].Grupo[0].Tabela[1];
+					semi_pos02 = tabela[3].Grupo[0].Tabela[0];
+					
+				}
+				
+				if(tabela[3].Grupo[1].Tabela[0].iPontos >= tabela[3].Grupo[1].Tabela[1].iPontos){
+
+					semi_pos03 = tabela[3].Grupo[1].Tabela[0];
+					semi_pos04 = tabela[3].Grupo[1].Tabela[1];
+					
+				}else{
+					
+					semi_pos03 = tabela[3].Grupo[1].Tabela[1];
+					semi_pos04 = tabela[3].Grupo[1].Tabela[0];
+					
+				}
 				//End - Ordena as posições de acordo com a TAG iPosicao FASE DE TURNOS
 				
 				$('.fase3').append(''+
@@ -1047,8 +1056,17 @@ $(document).ready(function (){
 				'');
 			
 				//Start - Ordena as posições de acordo com a TAG iPosicao FASE DE TURNOS
-				final_pos01 = tabela[4].Grupo[0].Tabela[0];
-				final_pos02 = tabela[4].Grupo[1].Tabela[0];
+				if(tabela[4].Grupo[0].Tabela[0].iPontos >= tabela[4].Grupo[1].Tabela[0].iPontos){
+
+					final_pos01 = tabela[4].Grupo[0].Tabela[0];
+					final_pos02 = tabela[4].Grupo[1].Tabela[0];
+
+				}else{
+					
+					final_pos01 = tabela[4].Grupo[1].Tabela[0];
+					final_pos02 = tabela[4].Grupo[0].Tabela[0];
+					
+				}
 				//End - Ordena as posições de acordo com a TAG iPosicao FASE DE TURNOS
 				
 				$('.fase4').append(''+
@@ -3962,8 +3980,8 @@ $(document).ready(function (){
 							if(contador == 16){
 								$('.loading').removeClass('on');
 							}else{
-								$('.loading').removeClass('on');
-								//location.reload();
+								//$('.loading').removeClass('on');
+								location.reload();
 							}
 							
 						}
