@@ -900,10 +900,34 @@ width:3.5vw;
 height:1.4vw;
 background-color:rgba(14,42,83,1);
 text-align: center;
-margin:0 auto;
+float:left;
 font-weight: bold;
 font-size: 1vw;
 color: white;
+border-radius: 0.2vw;
+line-height: 1.3vw;
+}
+.principal-jogos-resultado-penalti-mandante{
+width:1.4vw;
+height:1.4vw;
+background-color:rgba(14,42,83,0);
+text-align: center;
+float:left;
+font-weight: bold;
+font-size: 1vw;
+color: rgba(14,42,83,1);
+border-radius: 0.2vw;
+line-height: 1.3vw;
+}
+.principal-jogos-resultado-penalti-visitante{
+width:1.4vw;
+height:1.4vw;
+background-color:rgba(14,42,83,0);
+text-align: center;
+float:left;
+font-weight: bold;
+font-size: 1vw;
+color: rgba(14,42,83,1);
 border-radius: 0.2vw;
 line-height: 1.3vw;
 }

@@ -2231,7 +2231,9 @@ $(document).ready(function (){
 						$('.rodadaQUARTAS_IDA .jogo'+ contador_jogo +' .jogo-data').html(rodadas[9].Jogos[j].sDiaSemana +', '+ rodadas[9].Jogos[j].sData + ' ' + rodadas[9].Jogos[j].sHora +' - Jogo: '+ rodadas[9].Jogos[j].sJogo);
 						$('.rodadaQUARTAS_IDA .jogo'+ contador_jogo +' .jogo-time-casa-abrev').html(rodadas[9].Jogos[j].sNmMandante);
 						$('.rodadaQUARTAS_IDA .jogo'+ contador_jogo +' .jogo-time-casa-escudo').css('background-image', 'url('+ rodadas[9].Jogos[j].sLogoMandante +')');
+						if(rodadas[9].Jogos[j].iGolsMandantePen != 0){$('.rodadaQUARTAS_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-mandante').html(rodadas[9].Jogos[j].iGolsMandantePen);}
 						$('.rodadaQUARTAS_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-gols').html(rodadas[9].Jogos[j].iGolsMandante +' x '+ rodadas[9].Jogos[j].iGolsVisitante);
+						if(rodadas[9].Jogos[j].iGolsVisitantePen != 0){$('.rodadaQUARTAS_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-visitante').html(rodadas[9].Jogos[j].iGolsVisitantePen);}
 						$('.rodadaQUARTAS_IDA .jogo'+ contador_jogo +' .jogo-time-visitante-escudo').css('background-image', 'url('+ rodadas[9].Jogos[j].sLogoVisitante +')');
 						$('.rodadaQUARTAS_IDA .jogo'+ contador_jogo +' .jogo-time-visitante-abrev').html(rodadas[9].Jogos[j].sNmVisitante);
 						$('.rodadaQUARTAS_IDA .jogo'+ contador_jogo +' .jogo-estadio').html(rodadas[9].Jogos[j].sEstadio +' - '+ rodadas[9].Jogos[j].sCidade);
@@ -2330,7 +2332,9 @@ $(document).ready(function (){
 						$('.rodadaQUARTAS_VOLTA .jogo'+ contador_jogo +' .jogo-data').html(rodadas[10].Jogos[j].sDiaSemana +', '+ rodadas[10].Jogos[j].sData + ' ' + rodadas[10].Jogos[j].sHora +' - Jogo: '+ rodadas[10].Jogos[j].sJogo);
 						$('.rodadaQUARTAS_VOLTA .jogo'+ contador_jogo +' .jogo-time-casa-abrev').html(rodadas[10].Jogos[j].sNmMandante);
 						$('.rodadaQUARTAS_VOLTA .jogo'+ contador_jogo +' .jogo-time-casa-escudo').css('background-image', 'url('+ rodadas[10].Jogos[j].sLogoMandante +')');
+						if(rodadas[10].Jogos[j].iGolsMandantePen != 0){$('.rodadaQUARTAS_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-mandante').html(rodadas[10].Jogos[j].iGolsMandantePen);}
 						$('.rodadaQUARTAS_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-gols').html(rodadas[10].Jogos[j].iGolsMandante +' x '+ rodadas[10].Jogos[j].iGolsVisitante);
+						if(rodadas[10].Jogos[j].iGolsVisitantePen != 0){$('.rodadaQUARTAS_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-visitante').html(rodadas[10].Jogos[j].iGolsVisitantePen);}
 						$('.rodadaQUARTAS_VOLTA .jogo'+ contador_jogo +' .jogo-time-visitante-escudo').css('background-image', 'url('+ rodadas[10].Jogos[j].sLogoVisitante +')');
 						$('.rodadaQUARTAS_VOLTA .jogo'+ contador_jogo +' .jogo-time-visitante-abrev').html(rodadas[10].Jogos[j].sNmVisitante);
 						$('.rodadaQUARTAS_VOLTA .jogo'+ contador_jogo +' .jogo-estadio').html(rodadas[10].Jogos[j].sEstadio +' - '+ rodadas[10].Jogos[j].sCidade);
@@ -2432,7 +2436,9 @@ $(document).ready(function (){
 						$('.rodadaDESCENSO_IDA .jogo'+ contador_jogo +' .jogo-data').html(rodadas[11].Jogos[j].sDiaSemana +', '+ rodadas[11].Jogos[j].sData + ' ' + rodadas[11].Jogos[j].sHora +' - Jogo: '+ rodadas[11].Jogos[j].sJogo);
 						$('.rodadaDESCENSO_IDA .jogo'+ contador_jogo +' .jogo-time-casa-abrev').html(rodadas[11].Jogos[j].sNmMandante);
 						$('.rodadaDESCENSO_IDA .jogo'+ contador_jogo +' .jogo-time-casa-escudo').css('background-image', 'url('+ rodadas[11].Jogos[j].sLogoMandante +')');
+						if(rodadas[11].Jogos[j].iGolsMandantePen != 0){$('.rodadaDESCENSO_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-mandante').html(rodadas[11].Jogos[j].iGolsMandantePen);}
 						$('.rodadaDESCENSO_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-gols').html(rodadas[11].Jogos[j].iGolsMandante +' x '+ rodadas[11].Jogos[j].iGolsVisitante);
+						if(rodadas[11].Jogos[j].iGolsVisitantePen != 0){$('.rodadaDESCENSO_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-visitante').html(rodadas[11].Jogos[j].iGolsVisitantePen);}
 						$('.rodadaDESCENSO_IDA .jogo'+ contador_jogo +' .jogo-time-visitante-escudo').css('background-image', 'url('+ rodadas[11].Jogos[j].sLogoVisitante +')');
 						$('.rodadaDESCENSO_IDA .jogo'+ contador_jogo +' .jogo-time-visitante-abrev').html(rodadas[11].Jogos[j].sNmVisitante);
 						$('.rodadaDESCENSO_IDA .jogo'+ contador_jogo +' .jogo-estadio').html(rodadas[11].Jogos[j].sEstadio +' - '+ rodadas[11].Jogos[j].sCidade);
@@ -2531,7 +2537,9 @@ $(document).ready(function (){
 						$('.rodadaDESCENSO_VOLTA .jogo'+ contador_jogo +' .jogo-data').html(rodadas[12].Jogos[j].sDiaSemana +', '+ rodadas[12].Jogos[j].sData + ' ' + rodadas[12].Jogos[j].sHora +' - Jogo: '+ rodadas[12].Jogos[j].sJogo);
 						$('.rodadaDESCENSO_VOLTA .jogo'+ contador_jogo +' .jogo-time-casa-abrev').html(rodadas[12].Jogos[j].sNmMandante);
 						$('.rodadaDESCENSO_VOLTA .jogo'+ contador_jogo +' .jogo-time-casa-escudo').css('background-image', 'url('+ rodadas[12].Jogos[j].sLogoMandante +')');
+						if(rodadas[12].Jogos[j].iGolsMandantePen != 0){$('.rodadaDESCENSO_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-mandante').html(rodadas[12].Jogos[j].iGolsMandantePen);}
 						$('.rodadaDESCENSO_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-gols').html(rodadas[12].Jogos[j].iGolsMandante +' x '+ rodadas[12].Jogos[j].iGolsVisitante);
+						if(rodadas[12].Jogos[j].iGolsVisitantePen != 0){$('.rodadaDESCENSO_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-visitante').html(rodadas[12].Jogos[j].iGolsVisitantePen);}
 						$('.rodadaDESCENSO_VOLTA .jogo'+ contador_jogo +' .jogo-time-visitante-escudo').css('background-image', 'url('+ rodadas[12].Jogos[j].sLogoVisitante +')');
 						$('.rodadaDESCENSO_VOLTA .jogo'+ contador_jogo +' .jogo-time-visitante-abrev').html(rodadas[12].Jogos[j].sNmVisitante);
 						$('.rodadaDESCENSO_VOLTA .jogo'+ contador_jogo +' .jogo-estadio').html(rodadas[12].Jogos[j].sEstadio +' - '+ rodadas[12].Jogos[j].sCidade);
@@ -2633,7 +2641,9 @@ $(document).ready(function (){
 						$('.rodadaSEMI_IDA .jogo'+ contador_jogo +' .jogo-data').html(rodadas[13].Jogos[j].sDiaSemana +', '+ rodadas[13].Jogos[j].sData + ' ' + rodadas[13].Jogos[j].sHora +' - Jogo: '+ rodadas[13].Jogos[j].sJogo);
 						$('.rodadaSEMI_IDA .jogo'+ contador_jogo +' .jogo-time-casa-abrev').html(rodadas[13].Jogos[j].sNmMandante);
 						$('.rodadaSEMI_IDA .jogo'+ contador_jogo +' .jogo-time-casa-escudo').css('background-image', 'url('+ rodadas[13].Jogos[j].sLogoMandante +')');
+						if(rodadas[13].Jogos[j].iGolsMandantePen != 0){$('.rodadaSEMI_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-mandante').html(rodadas[13].Jogos[j].iGolsMandantePen);}
 						$('.rodadaSEMI_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-gols').html(rodadas[13].Jogos[j].iGolsMandante +' x '+ rodadas[13].Jogos[j].iGolsVisitante);
+						if(rodadas[13].Jogos[j].iGolsVisitantePen != 0){$('.rodadaSEMI_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-visitante').html(rodadas[13].Jogos[j].iGolsVisitantePen);}
 						$('.rodadaSEMI_IDA .jogo'+ contador_jogo +' .jogo-time-visitante-escudo').css('background-image', 'url('+ rodadas[13].Jogos[j].sLogoVisitante +')');
 						$('.rodadaSEMI_IDA .jogo'+ contador_jogo +' .jogo-time-visitante-abrev').html(rodadas[13].Jogos[j].sNmVisitante);
 						$('.rodadaSEMI_IDA .jogo'+ contador_jogo +' .jogo-estadio').html(rodadas[13].Jogos[j].sEstadio +' - '+ rodadas[13].Jogos[j].sCidade);
@@ -2732,7 +2742,9 @@ $(document).ready(function (){
 						$('.rodadaSEMI_VOLTA .jogo'+ contador_jogo +' .jogo-data').html(rodadas[14].Jogos[j].sDiaSemana +', '+ rodadas[14].Jogos[j].sData + ' ' + rodadas[14].Jogos[j].sHora +' - Jogo: '+ rodadas[14].Jogos[j].sJogo);
 						$('.rodadaSEMI_VOLTA .jogo'+ contador_jogo +' .jogo-time-casa-abrev').html(rodadas[14].Jogos[j].sNmMandante);
 						$('.rodadaSEMI_VOLTA .jogo'+ contador_jogo +' .jogo-time-casa-escudo').css('background-image', 'url('+ rodadas[14].Jogos[j].sLogoMandante +')');
+						if(rodadas[14].Jogos[j].iGolsMandantePen != 0){$('.rodadaSEMI_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-mandante').html(rodadas[14].Jogos[j].iGolsMandantePen);}
 						$('.rodadaSEMI_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-gols').html(rodadas[14].Jogos[j].iGolsMandante +' x '+ rodadas[14].Jogos[j].iGolsVisitante);
+						if(rodadas[14].Jogos[j].iGolsVisitantePen != 0){$('.rodadaSEMI_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-visitante').html(rodadas[14].Jogos[j].iGolsVisitantePen);}
 						$('.rodadaSEMI_VOLTA .jogo'+ contador_jogo +' .jogo-time-visitante-escudo').css('background-image', 'url('+ rodadas[14].Jogos[j].sLogoVisitante +')');
 						$('.rodadaSEMI_VOLTA .jogo'+ contador_jogo +' .jogo-time-visitante-abrev').html(rodadas[14].Jogos[j].sNmVisitante);
 						$('.rodadaSEMI_VOLTA .jogo'+ contador_jogo +' .jogo-estadio').html(rodadas[14].Jogos[j].sEstadio +' - '+ rodadas[14].Jogos[j].sCidade);
@@ -2834,7 +2846,9 @@ $(document).ready(function (){
 						$('.rodadaFINAIS_IDA .jogo'+ contador_jogo +' .jogo-data').html(rodadas[15].Jogos[j].sDiaSemana +', '+ rodadas[15].Jogos[j].sData + ' ' + rodadas[15].Jogos[j].sHora +' - Jogo: '+ rodadas[15].Jogos[j].sJogo);
 						$('.rodadaFINAIS_IDA .jogo'+ contador_jogo +' .jogo-time-casa-abrev').html(rodadas[15].Jogos[j].sNmMandante);
 						$('.rodadaFINAIS_IDA .jogo'+ contador_jogo +' .jogo-time-casa-escudo').css('background-image', 'url('+ rodadas[15].Jogos[j].sLogoMandante +')');
+						if(rodadas[15].Jogos[j].iGolsMandantePen != 0){$('.rodadaFINAIS_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-mandante').html(rodadas[15].Jogos[j].iGolsMandantePen);}
 						$('.rodadaFINAIS_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-gols').html(rodadas[15].Jogos[j].iGolsMandante +' x '+ rodadas[15].Jogos[j].iGolsVisitante);
+						if(rodadas[15].Jogos[j].iGolsVisitantePen != 0){$('.rodadaFINAIS_IDA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-visitante').html(rodadas[15].Jogos[j].iGolsVisitantePen);}
 						$('.rodadaFINAIS_IDA .jogo'+ contador_jogo +' .jogo-time-visitante-escudo').css('background-image', 'url('+ rodadas[15].Jogos[j].sLogoVisitante +')');
 						$('.rodadaFINAIS_IDA .jogo'+ contador_jogo +' .jogo-time-visitante-abrev').html(rodadas[15].Jogos[j].sNmVisitante);
 						$('.rodadaFINAIS_IDA .jogo'+ contador_jogo +' .jogo-estadio').html(rodadas[15].Jogos[j].sEstadio +' - '+ rodadas[15].Jogos[j].sCidade);
@@ -2933,7 +2947,9 @@ $(document).ready(function (){
 						$('.rodadaFINAIS_VOLTA .jogo'+ contador_jogo +' .jogo-data').html(rodadas[16].Jogos[j].sDiaSemana +', '+ rodadas[16].Jogos[j].sData + ' ' + rodadas[16].Jogos[j].sHora +' - Jogo: '+ rodadas[16].Jogos[j].sJogo);
 						$('.rodadaFINAIS_VOLTA .jogo'+ contador_jogo +' .jogo-time-casa-abrev').html(rodadas[16].Jogos[j].sNmMandante);
 						$('.rodadaFINAIS_VOLTA .jogo'+ contador_jogo +' .jogo-time-casa-escudo').css('background-image', 'url('+ rodadas[16].Jogos[j].sLogoMandante +')');
+						if(rodadas[16].Jogos[j].iGolsMandantePen != 0){$('.rodadaFINAIS_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-mandante').html(rodadas[16].Jogos[j].iGolsMandantePen);}
 						$('.rodadaFINAIS_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-gols').html(rodadas[16].Jogos[j].iGolsMandante +' x '+ rodadas[16].Jogos[j].iGolsVisitante);
+						if(rodadas[16].Jogos[j].iGolsVisitantePen != 0){$('.rodadaFINAIS_VOLTA .jogo'+ contador_jogo +' .principal-jogos-resultado-penalti-visitante').html(rodadas[16].Jogos[j].iGolsVisitantePen);}
 						$('.rodadaFINAIS_VOLTA .jogo'+ contador_jogo +' .jogo-time-visitante-escudo').css('background-image', 'url('+ rodadas[16].Jogos[j].sLogoVisitante +')');
 						$('.rodadaFINAIS_VOLTA .jogo'+ contador_jogo +' .jogo-time-visitante-abrev').html(rodadas[16].Jogos[j].sNmVisitante);
 						$('.rodadaFINAIS_VOLTA .jogo'+ contador_jogo +' .jogo-estadio').html(rodadas[16].Jogos[j].sEstadio +' - '+ rodadas[16].Jogos[j].sCidade);
