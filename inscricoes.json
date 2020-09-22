@@ -1,0 +1,340 @@
+{
+	"sNmClube":"CRICIÚMA",
+	"sCodClube":"20019",
+	"sLogo":"http://egol.fcf.com.br/SESP/ClubeLigas/CRICIUMA.png",
+	"Jogador":[
+		{
+			"iSequencia":1,
+			"sCBF":"165.439",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/05700592916_62_Carlos.jpg",
+			"sNmJogador":"CARLOS CESAR NEVES",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":2,
+			"sCBF":"182.631",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/00853693064_18_Agenor.jpg",
+			"sNmJogador":"AGENOR DETOFOL",
+			"sCategoria":"PR",
+			"sDtInscricao":"28/02/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":3,
+			"sCBF":"184.811",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/38083156876_63_Murilo.jpg",
+			"sNmJogador":"MURILO GOMES FERREIRA",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":4,
+			"sCBF":"308.021",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/02123999008_11_Paulo.JPG",
+			"sNmJogador":"PAULO HENRIQUE GIANEZINI",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":5,
+			"sCBF":"310.804",
+			"sFoto":"http://egol.fcf.com.br/sisgol/arbitros/semfoto.png",
+			"sNmJogador":"ANDREW LUCAS BALBINO DRUMMOND",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":6,
+			"sCBF":"316.173",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/13711886701_39_Daniel.JPG",
+			"sNmJogador":"DANIEL PAULO DA CRUZ",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":7,
+			"sCBF":"316.680",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/06754002956_34_Rodrigo.JPG",
+			"sNmJogador":"RODRIGO DA ROSA MILANEZ",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":8,
+			"sCBF":"323.125",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/40290273854_32_Adenilson.jpg",
+			"sNmJogador":"ADENILSON APARECIDO DOS SANTOS JUNIOR",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":9,
+			"sCBF":"340.535",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/02412125023_43_Foguinho.JPG",
+			"sNmJogador":"GUILHERME SEEFELDT KROLOW",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":10,
+			"sCBF":"345.678",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/02643193113_6_Jean.jpg",
+			"sNmJogador":"JEAN DIAS DA COSTA",
+			"sCategoria":"PR",
+			"sDtInscricao":"06/07/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":11,
+			"sCBF":"373.263",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/04380798178_22_Vitao.jpg",
+			"sNmJogador":"VICTOR FELIPE DE SOUZA LISBOA",
+			"sCategoria":"PR",
+			"sDtInscricao":"28/02/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":12,
+			"sCBF":"379.282",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/05282883180_41_Kaike.jpg",
+			"sNmJogador":"KAIKE SILMA MENDES",
+			"sCategoria":"PR",
+			"sDtInscricao":"27/02/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":13,
+			"sCBF":"386.790",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/08340227963_99_Thiago.jpg",
+			"sNmJogador":"THIAGO HENRIQUE DO ESPIRITO SANTO",
+			"sCategoria":"PR",
+			"sDtInscricao":"06/07/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":14,
+			"sCBF":"392.562",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/09198990993_23_Eduardo.JPG",
+			"sNmJogador":"EDUARDO JACINTO DE BIASI",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":15,
+			"sCBF":"392.864",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/41898294801_46_Leo.JPG",
+			"sNmJogador":"LEONARDO LUIZ DOS SANTOS",
+			"sCategoria":"PR",
+			"sDtInscricao":"17/03/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":16,
+			"sCBF":"400.624",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/11202662706_76_Mauricio.jpg",
+			"sNmJogador":"MAURICIO BARBOSA TEIXEIRA",
+			"sCategoria":"PR",
+			"sDtInscricao":"06/07/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":17,
+			"sCBF":"410.685",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/05836825530_51_Victor.jpg",
+			"sNmJogador":"VICTOR GUILHERME DA SILVA CAVALCANTE",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":18,
+			"sCBF":"411.128",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/11784879622_37_Taylon.jpg",
+			"sNmJogador":"TAYLON NICOLAS CORREA MARCOLINO",
+			"sCategoria":"PR",
+			"sDtInscricao":"29/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":19,
+			"sCBF":"432.301",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/45825065857_28_Carlinhos.jpg",
+			"sNmJogador":"CARLOS ROBERTO DA SILVA LOPES",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":20,
+			"sCBF":"440.246",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/09963560610_91_Jaja2.jpg",
+			"sNmJogador":"JANDIR BRENO SOUZA SILVA",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":21,
+			"sCBF":"456.822",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/07192730564_52_Clau.jpg",
+			"sNmJogador":"CLAUDEVAN SANTOS DO NASCIMENTO",
+			"sCategoria":"PR",
+			"sDtInscricao":"07/02/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":22,
+			"sCBF":"456.884",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/10451043960_33_Joao.JPG",
+			"sNmJogador":"JOAO CARLOS BARROS LOPES",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":23,
+			"sCBF":"463.114",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/42374129896_28_Alisson.jpg",
+			"sNmJogador":"ALISSON FABRICIO DOS SANTOS TADDEI",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":24,
+			"sCBF":"464.853",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/48205312800_92_Fabio.JPG",
+			"sNmJogador":"FABIO CAMPOS LUIS",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":25,
+			"sCBF":"500.800",
+			"sFoto":"http://egol.fcf.com.br/sisgol/arbitros/semfoto.png",
+			"sNmJogador":"CHRISTOFER DAVID GRASSE",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":26,
+			"sCBF":"508.135",
+			"sFoto":"http://egol.fcf.com.br/sisgol/arbitros/semfoto.png",
+			"sNmJogador":"DIEGO DE SOUZA VITORIO",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":27,
+			"sCBF":"516.783",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/47070556802_2_Lucas.JPG",
+			"sNmJogador":"LUCAS ANTONIO DA SILVA SOARES",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":28,
+			"sCBF":"528.179",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/10976243903_78_Edinan.jpg",
+			"sNmJogador":"EDINAN BRIGOLA STANISOSKI",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":29,
+			"sCBF":"529.193",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/85804240030_66_Bruno.JPG",
+			"sNmJogador":"BRUNO DE OLIVEIRA MARTINS",
+			"sCategoria":"PR",
+			"sDtInscricao":"20/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":30,
+			"sCBF":"532.247",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/49872437840_7_Wagner.JPG",
+			"sNmJogador":"WAGNER APARECIDO DE ANDRADE JUNIOR",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":31,
+			"sCBF":"532.649",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/10328385905_26_claudio.jpg",
+			"sNmJogador":"CLAUDIO COELHO SALVATICO",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":32,
+			"sCBF":"540.826",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/07754475367_31_Jose.jpg",
+			"sNmJogador":"JOSÉ LEONARDO VERÍSSIMO DO NASCIMENTO",
+			"sCategoria":"PR",
+			"sDtInscricao":"29/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":33,
+			"sCBF":"544.381",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/05604126144_60_Rullian.JPG",
+			"sNmJogador":"RULLIAN VENANCIO RIBEIRO",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":34,
+			"sCBF":"546.118",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/04781195261_90_Ykaro.JPG",
+			"sNmJogador":"YKARO MOITA BARROS",
+			"sCategoria":"PR",
+			"sDtInscricao":"12/02/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":35,
+			"sCBF":"591.190",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/08320054524_67_Eduardo.JPG",
+			"sNmJogador":"EDUARDO DE QUEIROZ MELO",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":36,
+			"sCBF":"626.985",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/06326517761_10_Cayque.JPG",
+			"sNmJogador":"CAYQUE RAMOS DE ANDRADE",
+			"sCategoria":"NP",
+			"sDtInscricao":"06/07/2020",
+			"sAtestado":"-"
+		},
+		{
+			"iSequencia":37,
+			"sCBF":"633.359",
+			"sFoto":"http://egol.fcf.com.br/sesp/Images/16060747760_12_Wellington.JPG",
+			"sNmJogador":"WELLINGTON GONZAGA DE ASSIS FILHO",
+			"sCategoria":"PR",
+			"sDtInscricao":"21/01/2020",
+			"sAtestado":"-"
+		}
+	]
+}
